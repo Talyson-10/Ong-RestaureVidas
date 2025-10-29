@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css/index.css">
+    <title>Cadastro de Voluntário</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+            <h1>Cadastro de Voluntário</h1>
+            <section class="img_cabecario">
+                <img src="/Imagem/Cadastro/Cadastro.jpg" alt="Cadastro de Voluntário">
+                <p>Cadastre-se e nos ajude a salvar vidas e famílias, além de trazer a alegria de viver de volta!</p>
+            </section>
+            <nav class="menu">
+                <a href="index.html">Sobre Nós</a>
+                <a href="projetos.html" target="_blank">Projetos</a>
+                <a href="cadastro.html" target="_blank">Cadastro</a>
+            </nav>
+    </header>
+
+    <main class="container">
+        <section class="item quadro">
+            <form>
+                <fieldset>
+                    <legend>Formulário de Cadastro de Voluntário</legend>
+
+                    <div>
+                        <label for="idname">Nome completo:</label><br>
+                        <input type="text" id="idname" name="idname" placeholder="Digite seu nome..." required>
+                    </div>
+
+                    <div>
+                        <label for="idemail">Email:</label><br>
+                        <input type="email" id="idemail" name="idemail" placeholder="Digite seu email..." required>
+                    </div>
+
+                    <div>
+                        <label for="idpassword">Senha:</label><br>
+                        <input type="password" id="idpassword" name="idpassword" placeholder="Digite sua senha..." required>
+                    </div>
+
+                    <div>
+                        <label for="iddate">Data de nascimento:</label><br>
+                        <input type="date" id="iddate" name="iddate" required>
+                    </div>
+
+                    <div>
+                        <label for="idtext">Por que você quer ser voluntário?</label><br>
+                        <input type="text" id="idtext" name="idtext" placeholder="Digite sua resposta..." required>
+                    </div>
+
+                    <div>
+                        <label for="idselect">Qual Projeto você deseja ajudar:</label><br>
+                        <select id="idselect" name="idselect" required>
+                            <option value="">Selecione um Projeto</option>
+                            <option value="cuidar_da_alma">Projeto Cuidar da Alma</option>
+                            <option value="educacao">Projeto Educar para Transformar</option>
+                            <option value="recomercar">Projeto Recomeçar</option>
+                            <option value="alimentar_vidas">Projeto Alimentar Vidas</option>
+                            <option value="saude_integral">Projeto Saúde Integral</option>
+                            <option value="outros">Inscrever meu Projeto Social</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="idtextarea">Se você deseja escrever seu projeto, descreva detalhadamente (objetivos, público-alvo, atividades planejadas e resultados esperados):</label><br>
+                        <textarea id="idtextarea" name="idtextarea" rows="5" cols="50" placeholder="Escreva aqui..."></textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </div>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h3 class="contato">📞Contato</h3>
+        <p class="contato">
+            Endereço: Rua da Esperança, 123 - Belo Horizonte, MG<br>
+            Telefone: (31) 9520-9311<br>
+            Email: contato@restaurarvidas.org.br<br>
+            Redes Sociais: @restaurarvidas (Instagram, Facebook e Twitter)<br>
+            Horário de Atendimento: Segunda a Sexta, das 9h às 18h
+        </p>
+    </footer>
+</div>
+</body>
+</html>
