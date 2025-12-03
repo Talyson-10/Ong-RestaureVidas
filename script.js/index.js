@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Exibe resultado
         if (mensagemErro !== "") {
             alert("Por favor, corrija os seguintes erros:\n\n" + mensagemErro);
+        
         } else {
             // Mostra o alerta primeiro
             alert("✅ Cadastro enviado com sucesso! Obrigado por se voluntariar 💙");
